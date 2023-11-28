@@ -1,0 +1,13 @@
+name: Test
+version: '${project.version}'
+main: org.regicide.test.Test
+api-version: '1.20'
+description: 'This is Test plagin'
+
+commands:
+  spawnEntity:
+    description: 'Спаунит заряженного крипера, который вскоре взорвётся'
+    usage: /<command>
+    aliases:
+      - se
+      - spawnC
